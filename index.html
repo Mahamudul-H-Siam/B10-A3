@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-theme="light">
 
 <head>
   <meta charset="UTF-8">
@@ -9,6 +9,9 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
+
+  <!-- Font Awesome Kit -->
+  <script src="https://kit.fontawesome.com/5a18ffdd92.js" crossorigin="anonymous"></script>
 
   <!-- Tailwind CDN -->
   <script src="https://cdn.tailwindcss.com"></script>
@@ -39,7 +42,62 @@
 <body class="manrope-font">
   <!-- Header Section -->
   <header>
+    <!-- Navbar Section -->
+    <nav class="px-5 py-8 md:px-8 md:py-6 lg:px-20 lg:py-12 flex items-center justify-between">
 
+      <!-- Logo -->
+      <div class="flex items-center gap-2">
+        <i
+          class="fa-solid fa-arrow-right -rotate-45 bg-[#ABEF5F] border-23 w-8 h-8 text-center text-xl rounded-full"></i>
+        <h1 class="text-neutral-800 font-extrabold text-[28px] lg:text-4xl">Rinterio</h1>
+      </div>
+
+      <!-- Navbar List -->
+      <div class="hidden xl:block">
+        <ul class="flex gap-9 text-neutral-500">
+          <li><a href="" class="text-neutral-700 font-black">Home</a></li>
+          <li><a href="" class="">Service</a></li>
+          <li><a href="" class="">Portfolio</a></li>
+          <li><a href="" class="">Blogs</a></li>
+          <li><a href="" class="">Contact Us</a></li>
+        </ul>
+      </div>
+
+      <!-- Navbar button -->
+      <div class="flex items-center gap-4">
+        <div class="hidden md:flex items-center gap-4">
+          <!-- Search button -->
+          <i
+            class="fa-solid fa-magnifying-glass pt-3 text-center text-[#737373] bg-[#E9E9E9] h-11 w-11 rounded-full"></i>
+
+          <!-- Shopping Cart button -->
+          <i class="fa-solid fa-cart-shopping pt-3 text-center text-[#737373] bg-[#E9E9E9] h-11 w-11 rounded-full"></i>
+
+          <!-- Book Consult button -->
+          <a class="btn bg-[#ABEF5F] rounded-full  text-[#1C1C1C] text-lg font-[500]">Book Consult <i
+              class="fa-solid fa-arrow-right -rotate-45 bg-black text-white border-23 w-8 h-8 text-center text-xl rounded-full"></i></a>
+        </div>
+
+        <!-- DropDown -->
+        <div class="dropdown dropdown-left xl:hidden">
+          <div tabindex="0" role="button"
+            class="btn btn-ghost btn-circle bg-white border-2 border-neutral-200 text-neutral-500 hover:bg-white">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
+              stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h7" />
+            </svg>
+          </div>
+          <ul class="dropdown-content menu rounded-box w-32 p-2 ">
+            <li><a href="" class="text-neutral-700 font-black">Home</a></li>
+            <li><a href="" class="">Service</a></li>
+            <li><a href="" class="">Portfolio</a></li>
+            <li><a href="" class="">Blogs</a></li>
+            <li><a href="" class="">Contact Us</a></li>
+          </ul>
+        </div>
+      </div>
+      </div>
+    </nav>
   </header>
 
   <!-- Main Section -->
