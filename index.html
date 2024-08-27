@@ -48,7 +48,7 @@
       <!-- Logo -->
       <div class="flex items-center gap-2">
         <i
-          class="fa-solid fa-arrow-right -rotate-45 bg-[#ABEF5F] border-23 w-8 h-8 text-center text-xl rounded-full"></i>
+          class="fa-solid fa-arrow-right -rotate-45 bg-lime-300 border-23 w-8 h-8 text-center text-xl rounded-full"></i>
         <h1 class="text-neutral-800 font-extrabold text-[28px] lg:text-4xl">Rinterio</h1>
       </div>
 
@@ -74,7 +74,7 @@
           <i class="fa-solid fa-cart-shopping pt-3 text-center text-[#737373] bg-[#E9E9E9] h-11 w-11 rounded-full"></i>
 
           <!-- Book Consult button -->
-          <a class="btn bg-[#ABEF5F] rounded-full  text-[#1C1C1C] text-lg font-[500]">Book Consult <i
+          <a class="btn bg-lime-300 rounded-full  text-[#1C1C1C] text-lg font-[500]">Book Consult <i
               class="fa-solid fa-arrow-right -rotate-45 bg-black text-white border-23 w-8 h-8 text-center text-xl rounded-full"></i></a>
         </div>
 
@@ -107,8 +107,8 @@
       <p class="text-center text-neutral-600 mb-8">The barn house captivates with its blend of rustic charm and modern
         sophistication, featuring weathered wood, sleek metal accents, and large windows that flood the space with
         natural light.</p>
-      <button class="btn bg-[#ABEF5F80] text-[#212121] font-bold rounded-full">View Details <i
-          class="fa-solid fa-arrow-right -rotate-45 bg-[#ABEF5F] border-23 w-8 h-8 text-center text-xl rounded-full"></i></button>
+      <button class="btn bg-lime-200 text-[#212121] font-bold rounded-full">View Details <i
+          class="fa-solid fa-arrow-right -rotate-45 bg-lime-400 border-23 w-8 h-8 text-center text-xl rounded-full"></i></button>
     </section>
   </header>
 
@@ -180,7 +180,7 @@
         <!-- Text -->
         <div class="flex flex-col items-center">
           <!--Button -->
-          <button class="btn rounded-full text-neutral-800 font-extrabold mb-4 bg-white space-y-6"><i
+          <button class="btn rounded-full text-neutral-800 font-extrabold mb-4 bg-white"><i
               class="fa-solid fa-arrow-up rotate-90"></i> How we works</button>
           <!-- Title -->
           <h1 class="font-black text-neutral-800 text-4xl mb-6 text-center">Our Works Process</h1>
@@ -240,11 +240,63 @@
         </div>
       </div>
     </section>
+
+    <!-- Contact Section -->
+    <section class="px-5 py-12 lg:px-20 lg:py-24 bg-[url('assets/bg.jpg')] bg-no-repeat bg-cover">
+      <div>
+        <div class="flex flex-col items-center">
+          <button class="btn bg-lime-300 text-neutral-800 font-bold rounded-full mb-4"><i class="fa-solid fa-arrow-up rotate-90 border-23 w-8 h-8 text-center  text-xl  rounded-full"></i>Let’s Connect</button>
+
+          <h1 class="font-black text-neutral-800 text-4xl mb-6 text-center">Let’s Discuss Next Project</h1>
+          <p class="text-center text-neutral-600 mb-6 lg:mb-8">The barn house captivates with its blend of rustic charm and modern sophistication, <br>featuring weathered wood, sleek metal accents.</p>
+
+          <div class="lg:grid place-items-center grid-cols-1 lg:grid-cols-2 w-full gap-6">
+
+            <div class="w-full mb-6 md:mb-0">
+              <input class="p-5 rounded-full outline-none w-full" type="text" placeholder="First Name*">
+            </div>
+            <div class="md:w-full mb-6 md:mb-0">
+              <input class="p-5 rounded-full outline-none w-full" type="text" placeholder="Last Name*">
+            </div>
+            <div class="w-full mb-6 md:mb-0">
+              <input class="p-5 rounded-full outline-none w-full" type="text" placeholder="Phone Number*">
+            </div>
+            <div class="w-full mb-6 md:mb-0">
+              <input class="p-5 rounded-full outline-none w-full" type="text" placeholder="Email Number*">
+            </div>
+            <div class="w-full grid col-span-2 h-52">
+              <textarea name="" id="" placeholder="Write your message here" class="rounded-3xl p-5 outline-none"></textarea>
+            </div>
+          </div>
+
+            <button class="btn bg-lime-300 text-black lg:col-span-2 mt-8 w-[327px] lg:w-[970px] rounded-full font-extrabold text-2xl">Send Mail <i class="fa-solid fa-arrow-up rotate-45 border-23 w-8 h-8 text-center text-xl bg-black text-white rounded-full"></i></button>
+        </div>
+      </div>
+    </section>
   </main>
 
   <!-- Footer Section -->
-  <footer>
+  <footer class="px-5 py-12 lg:px-20 lg:py-24 bg-neutral-800">
 
+    <div class="flex flex-col items-center justify-center">
+      
+        <div class="flex items-center gap-2">
+           <i class="fa-solid fa-arrow-up rotate-45 border-23 w-8 h-8 text-center  text-xl  bg-lime-300 rounded-full"></i>
+           <h1 class="text-white font-bold text-[28px] lg:text-4xl">Rinterio</h1>
+        </div>
+        <p class="text-neutral-500 mt-4 text-center">The barn house captivates with its blend of rustic charm and modern sophistication, <br>featuring weathered wood, sleek metal accents.</p>
+        
+        <ul class="flex flex-col lg:flex-row gap-9 text-center text-white mt-8">
+          <li><a href="">Home</a></li>
+          <li><a href="">Service</a></li>
+          <li><a href="">Portfolio</a></li>
+          <li><a href="">Blogs</a></li>
+          <li><a href="">Contact Us</a></li>
+        </ul>
+
+        <button class="btn rounded-full bg-lime-300 border-none py-3 px-3 space-x-3 pl-6 mt-9 text-center">Book Consult <i class="fa-solid fa-arrow-up rotate-45 border-23 w-8 h-8 text-center text-xl bg-black text-white rounded-full"></i>
+        </button>
+    </div>
   </footer>
 </body>
 
